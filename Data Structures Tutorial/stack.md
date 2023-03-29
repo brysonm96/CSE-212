@@ -30,6 +30,8 @@ Anytime we uses functions in our software, we are using a stack. Whenever we cal
 kind of placeholder to remember where in the code you need to return to after the function has executed. This is why stacks are important.
 After calling a function the computer is told to jump to that function and follow the instructions through. The computer then uses the back
 of the stack as a reference for where to return in the code when it is done.
+This works the same in the case that a call to a function is used inside another function. The original place in the code will always be
+stored and wait for the function to finish executing.
 
 
 
