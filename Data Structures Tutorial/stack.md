@@ -31,11 +31,11 @@ Note that the performance of stacks is based on the performance of the dynamic a
 
 | Function          | Code              | Description          | Performance (in Big O)          |
 | ----------------- | ----------------- | -------------------- | --------------------- |
-| size() | code | return stack size | O(1)  |
-| empty() | code | return True if stack size is zero | O(1)  |
-| push() | code | adds item to the back of the stack | O(1)  |
-| pop() | code | return and remove item from the back of the stack | O(1)  |
-| top()/ peak() | code | return reference to top item of stack | O(1)  |
+| size() | size = len(stack) | return stack size | O(1)  |
+| empty() | if len(stack) == 0 | returns whether the stack is empty | O(1)  |
+| push() | stack.append(value) | adds item to the back of the stack | O(1)  |
+| pop() | value = stack.pop() | return and remove item from the back of the stack | O(1)  |
+| full() | print("Is full", stack.full()) | return whether the stack is at max size | O(1)  |
 
 
 
