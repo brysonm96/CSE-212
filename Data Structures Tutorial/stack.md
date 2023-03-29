@@ -1,5 +1,12 @@
 # Stacks
 
+### Important Terms to Remember
+
+- Front
+- Back
+- Push
+- Pop
+
 Have you ever messed up while writing a paper? Chances are you've used the undo button before.
 The undo button uses what's known as the Stack data structure. The stack uses what's called Last in, First out (LIFO).
 
