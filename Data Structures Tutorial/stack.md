@@ -24,6 +24,19 @@ This is how we are able to press undo while writing a word document and it will 
 Let's say you write the sentence "The clouds moved and revealed the blue sky". The word "The" would be at the front of the stack, followed by "clouds", then "moved",
 and so on. The word "sky" would be at the back of the stack. The undo button would pop "sky" and the word would be removed.
 
+### Python Stacks
+
+In Python, stacks are defined using lists. The following table displays information about functions regarding stacks.
+Note that the performance of stacks is based on the performance of the dynamic array.
+
+|   Function   |     Code     |  Performance  |  Description  |
+|     pop      |     ----     |      ---      |      ---      |
+|     push     |     ----     |      ---      |      ---      |
+|     size     |     ----     |      ---      |      ---      |
+|     empty    |     ----     |      ---      |      ---      |
+|   top/ peak  |     ----     |      ---      |      ---      |
+
+
 ### Stacks and functions
 
 Anytime we uses functions in our software, we are using a stack. Whenever we call a function in our code, there needs to be some 
@@ -39,15 +52,6 @@ The stack keeps track of when functions are called. This is helpful for errors a
 ## Examples
 
 This will contain examples about the data structure
-
-## Table
-
-|   X   |   X   |   X   |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
 
 ## Code Problem
 
