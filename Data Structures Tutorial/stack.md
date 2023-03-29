@@ -29,7 +29,7 @@ and so on. The word "sky" would be at the back of the stack. The undo button wou
 In Python, stacks are defined using lists. The following table displays information about functions regarding stacks.
 Note that the performance of stacks is based on the performance of the dynamic array.
 
-|   Function   |      Code      ||   Function   |      Code      |
+|   Function   |      Code      |   Function   |      Code      |
 | :-----: | :------------: |
 | :-----: | :------------: |
 |  8-10   |     $1000      |
