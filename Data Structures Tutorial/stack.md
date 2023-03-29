@@ -29,13 +29,13 @@ and so on. The word "sky" would be at the back of the stack. The undo button wou
 In Python, stacks can be defined using lists. The following table displays information about functions regarding stacks.
 Note that the performance of stacks is based on the performance of the dynamic array.
 
-| Function          | Code              | Description          | Performance           |
+| Function          | Code              | Description          | Performance (in Big O)          |
 | ----------------- | ----------------- | -------------------- | --------------------- |
-| size() | code | return stack size | Performance  |
-| empty() | code | return True if stack size is zero | Performance  |
-| push() | code | adds item to the back of the stack | Performance  |
-| pop() | code | return and remove item from the back of the stack | Performance  |
-| top()/ peak() | code | return reference to top item of stack | Performance  |
+| size() | code | return stack size | O(1)  |
+| empty() | code | return True if stack size is zero | O(1)  |
+| push() | code | adds item to the back of the stack | O(1)  |
+| pop() | code | return and remove item from the back of the stack | O(1)  |
+| top()/ peak() | code | return reference to top item of stack | O(1)  |
 
 
 
