@@ -56,7 +56,7 @@ The stack keeps track of when functions are called. This is helpful for errors a
 ## Reverse String Example
 
 Let's see an example code using a stack. If you wanted to use a keyword for a password, but you don't want it to be easy to guess, try plugging the word into
-a python code that will reverse the word using a stack. First we will a Stack class with an empty list.
+a python code that will reverse the word using a stack. First we will create a stack class with an empty list.
 
 ```
 class Stack:
