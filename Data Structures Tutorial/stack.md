@@ -34,7 +34,7 @@ Note that the performance of stacks is based on the performance of the dynamic a
 | size() | code | Description | Performance  |
 | empty() | code | Description | Performance  |
 | push() | code | adds item to the back of the stack | Performance  |
-| pop() | code | Description | Performance  |
+| pop() | code | removes item from the back of the stack | Performance  |
 
 
 
