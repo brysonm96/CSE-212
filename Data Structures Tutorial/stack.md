@@ -26,7 +26,7 @@ and so on. The word "sky" would be at the back of the stack. The undo button wou
 
 ### Python Stacks
 
-In Python, stacks can be defined using lists. The following table displays information about functions regarding stacks.
+In Python, stacks can be defined using lists. The following table displays information about some common python functions regarding stacks.
 Note that the performance of stacks is based on the performance of the dynamic array.
 
 | Function          | Code              | Description          | Performance (in Big O)          |
