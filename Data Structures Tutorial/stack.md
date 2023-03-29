@@ -23,5 +23,5 @@ This will contain examples about the data structure
 
 This will contain a problem to solve with code
 
-Solution [Stack](stack-solution.py)
+[Solution](stack-solution.py)
 
