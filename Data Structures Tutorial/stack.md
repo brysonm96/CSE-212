@@ -7,11 +7,10 @@
 - Push
 - Pop
 
-Have you ever messed up while writing a paper? Chances are you've used the undo button before.
-The undo button uses what's known as the Stack data structure. The stack uses what's called Last in, First out (LIFO).
-
-We can visualize a stack like a plate of pancakes. The "Front" of the stack would be the first pancake that was made, or the first
-item of data that was entered. The following data will then enter behind, essentially "covering" the data before it. 
+A stack is a data structure that uses "LIFO" (Last in, First out). Chances are you've encountered staack before, if you've ever meed up while writing
+a paper and had to undo your error. To understand stacks we can visualize them as a plate of pancakes. 
+The "Front" of the stack would be the first pancake that was made, or the first item of data that was entered. 
+The following data will then enter behind, essentially "covering" the data before it. 
 When data is added to the stack, thius is called a "Push". When data is removed from the stack, this is called a "Pop" and is taken from the most recent data entered,
 or the "Back" of the stack.
 
