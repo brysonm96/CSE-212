@@ -58,13 +58,15 @@ The stack keeps track of when functions are called. This is helpful for errors a
 Let's see an example code using a stack. If you wanted to use a keyword for a password, but you don't want it to be easy to guess, try plugging the word into
 a python code that will reverse the word using a stack. First we will create a stack class with an empty list.
 
-```
+```python
 class Stack:
     def __init__(self):
         self.data = []        
 ```
+
 The "__init__(self)" method initializes a list to store the data of the stack.
-```
+
+```python
     # empty() function
     def is_empty(self):
         return len(self.data) == 0
@@ -78,13 +80,14 @@ The "__init__(self)" method initializes a list to store the data of the stack.
         self.data.append(item)
 
 ```
+
 The "is_empty(self) method" returns a Boolean value stating whether the stack is empty or not.
 The "remove(self)" method removes and returns the item from the top of the stack.
 The "add(self)" method appends the item to the top of the stack.
 
 Now we can add the function to reverse the word
 
-```
+```python
 def reverse(string):
     stack = Stack()
     for char in string:
@@ -96,6 +99,7 @@ def reverse(string):
 
     return reversed_string
 ```
+
 We're almost done! 
 
 ## Code Problem
