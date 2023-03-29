@@ -2,7 +2,7 @@
 
 This tutorial is to demonstrate knowledge about three select data structures using the python language.
 
-- [Stack](1-stack.md)
+- [Stack](stack.md)
 - [Set](2-set.md)
 - [Tree](3-tree.md)
 
