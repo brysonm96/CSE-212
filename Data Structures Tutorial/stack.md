@@ -11,11 +11,11 @@ A stack is a data structure that uses "LIFO" (Last in, First out) to determine t
 Chances are you've encountered stacks before, if you've ever messed up while writing a paper and had to undo your error. 
 
 To understand stacks we can visualize them as a plate of pancakes. 
-The "Front" of the stack would be the first pancake that was made, or the first item of data that was entered. 
+The `Front` of the stack would be the first pancake that was made, or the first item of data that was entered. 
 The following data will then enter behind, essentially covering the data before it. 
-The "Back" of the stack would be the most recent pancake that was made, or the last item of data that was entered.
-When data is added to the stack, it is called a "Push", and is added to the back.
-Whene data is removed from the stack, it is called a "Pop", and is removed from the back.
+The `Back` of the stack would be the most recent pancake that was made, or the last item of data that was entered.
+When data is added to the stack, it is called a `Push`, and is added to the back.
+Whene data is removed from the stack, it is called a `Pop`, and is removed from the back.
 
 ![pancake_design](pancake-stack.png)
 
