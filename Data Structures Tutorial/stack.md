@@ -64,7 +64,7 @@ class Stack:
         self.data = []        
 ```
 
-Next we will would add the methods to the class.
+Next we'll add the methods to the class.
 
 ```
 # Initialize
