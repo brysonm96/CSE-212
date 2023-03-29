@@ -65,6 +65,7 @@ class Stack:
 ```
 
 The "__init__(self)" method initializes a list to store the data of the stack.
+But we'll need a few more methods for this code to work.
 
 ```python
     # empty() function
