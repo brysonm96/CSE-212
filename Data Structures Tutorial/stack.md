@@ -100,7 +100,19 @@ def reverse(string):
     return reversed_string
 ```
 
-We're almost done! 
+The "reverse(string)" function receives a string and makes an empty stack using the Stack() constructor.
+The function iterates through each character of the string and pushes it onto the stack using the add(char) method.
+The function then pops each character from the stack using the remove() method and adds it to the reversed_string until the stack is empty.
+The function then returns the reversed string.
+
+We're almost done!
+
+```python
+word = "Rexburg"
+reversed_string = reverse(word)
+print(reversed_string)
+```
+
 
 ## Code Problem
 
