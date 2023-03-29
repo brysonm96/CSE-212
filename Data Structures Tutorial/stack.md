@@ -7,8 +7,9 @@
 - Push
 - Pop
 
-A stack is a data structure that uses "LIFO" (Last in, First out). Chances are you've encountered stacks before, if you've ever messed up while writing
-a paper and had to undo your error. To understand stacks we can visualize them as a plate of pancakes. 
+A stack is a data structure that uses "LIFO" (Last in, First out), to determine the order of data.
+Chances are you've encountered stacks before, if you've ever messed up while writinga paper and had to undo your error. 
+To understand stacks we can visualize them as a plate of pancakes. 
 The "Front" of the stack would be the first pancake that was made, or the first item of data that was entered. 
 The following data will then enter behind, essentially covering the data before it. 
 When data is added to the stack, this is called a "Push". When data is removed from the stack, this is called a "Pop" and is taken from the most recent data entered,
@@ -21,6 +22,8 @@ Let's say you write the sentence "The clouds moved and revealed the blue sky". T
 and so on. The word "sky" would be at the back of the stack. The undo button would pop "sky" and the word would be removed.
 
 ### Stacks and functions
+
+
 
 
 
