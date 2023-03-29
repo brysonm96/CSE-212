@@ -1,12 +1,14 @@
 # Stack Draft
 
-Description
+This will contain a descriptioin about the data structure
 
 ## Info
 
+This will contain information about the dada structure
 
 ## Examples
 
+This will contain examples about the data structure
 
 ## Table
 
@@ -18,5 +20,7 @@ Description
 |  ---  |  ---  |  ---  |
 
 ## Code Problem
+
+This will contain a problem to solve with code
 
 
