@@ -16,7 +16,9 @@ The following data will then enter behind, essentially covering the data before 
 When data is added to the stack, this is called a "Push". When data is removed from the stack, this is called a "Pop" and is taken from the most recent data entered,
 or the "Back" of the stack.
 
+
 ![pancake_design](pancake-stack.png)
+
 
 This is how we are unable to press undo while writing a word document and it will remove the last action.
 Let's say you write the sentence "The clouds moved and revealed the blue sky". The word "The" would be at the front of the stack, followed by "clouds", then "moved",
