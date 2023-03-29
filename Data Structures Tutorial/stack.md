@@ -7,7 +7,7 @@
 - Push
 - Pop
 
-A stack is a data structure that uses "LIFO" (Last in, First out) to determine the order of data.
+A stack is a data structure that uses "LIFO" (Last in, First out) to determine the order that data is entered and removed.
 Chances are you've encountered stacks before, if you've ever messed up while writinga paper and had to undo your error. 
 To understand stacks we can visualize them as a plate of pancakes. 
 The "Front" of the stack would be the first pancake that was made, or the first item of data that was entered. 
