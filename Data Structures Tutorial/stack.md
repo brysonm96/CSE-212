@@ -32,7 +32,7 @@ After calling a function the computer is told to jump to that function and follo
 of the stack as a reference for where to return in the code when it is done.
 This works the same in the case that a call to a function is used inside another function. The original place in the code will always be
 stored and wait for the function to finish executing.
-The stack keeps track of when functions are called. This is helpful for  errors and ebugging because we can see where exactly the code encountered the problem.
+The stack keeps track of when functions are called. This is helpful for  errors and debugging because we can see where exactly the code encountered the problem.
 
 
 
