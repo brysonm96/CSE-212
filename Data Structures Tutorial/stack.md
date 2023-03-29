@@ -108,11 +108,14 @@ The function then returns the reversed string.
 We're almost done!
 
 ```python
+# Replace the string with your key word
 word = "Rexburg"
 reversed_string = reverse(word)
 print(reversed_string)
 ```
 
+Now the code has a word variable to pass to the reverse(string) method.
+The reversed word is then printed to the user. Awesome!
 
 ## Code Problem
 
