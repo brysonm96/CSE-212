@@ -4,7 +4,7 @@ This will contain a descriptioin about the data structure
 
 ## Info
 
-This will contain information about the dada structure
+![pancake_design](pancake-stack.png)
 
 ## Examples
 
