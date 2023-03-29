@@ -26,7 +26,10 @@ and so on. The word "sky" would be at the back of the stack. The undo button wou
 
 ### Stacks and functions
 
-
+Anytime we uses functions in our software, we are using a stack. Whenever we call a function in our code, there needs to be some 
+kind of placeholder to remember where in the code you need to return to after the function has executed. This is why stacks are important.
+After calling a function the computer is told to jump to that function and follow the instructions through. The computer then uses the back
+of the stack as a reference for where to return in the code when it is done.
 
 
 
