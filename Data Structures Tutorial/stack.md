@@ -57,10 +57,31 @@ The stack keeps track of when functions are called. This is helpful for errors a
 
 Let's see an example code using a stack. If you wanted to use a keyword for a password, but you don't want it to be easy to guess, try plugging the word into
 a python code that will reverse the word using a stack. First we will a Stack class with an empty list.
+
 ```
 class Stack:
     def __init__(self):
         self.data = []        
+```
+
+Next we will would add the methods to the class.
+
+```
+# Initialize
+def __init__(self):
+        self.data = []
+    # empty() function
+    def is_empty(self):
+        return len(self.data) == 0
+
+    # pop() function
+    def remove(self):
+        return self.data.pop()
+
+    # push() function
+    def add(self, item):
+        self.data.append(item)
+
 ```
 
 ## Code Problem
