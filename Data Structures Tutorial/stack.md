@@ -1,6 +1,6 @@
 # Stacks
 
-### Important Terms to Remember
+### Key Terms
 
 - Front
 - Back
