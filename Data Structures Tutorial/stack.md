@@ -13,9 +13,9 @@ Chances are you've encountered stacks before, if you've ever messed up while wri
 To understand stacks we can visualize them as a plate of pancakes. 
 The "Front" of the stack would be the first pancake that was made, or the first item of data that was entered. 
 The following data will then enter behind, essentially covering the data before it. 
-When data is added to the stack, this is called a "Push". When data is removed from the stack, this is called a "Pop" and is taken from the most recent data entered,
-or the "Back" of the stack.
-
+The "Back" of the stack would the most recent pancake that was made, or the last item of data that was entered.
+When data is added to the stack, it is called a "Push", and is added to the back.
+Whene data is removed from the stack, it is called a "Pop", and is removed from the back.
 
 ![pancake_design](pancake-stack.png)
 
@@ -32,7 +32,7 @@ After calling a function the computer is told to jump to that function and follo
 of the stack as a reference for where to return in the code when it is done.
 This works the same in the case that a call to a function is used inside another function. The original place in the code will always be
 stored and wait for the function to finish executing.
-The stack keeps track of when functions are called. This is helpful for  errors and debugging because we can see where exactly the code encountered the problem.
+The stack keeps track of when functions are called. This is helpful for errors and debugging because we can see where exactly the code encountered the problem.
 
 
 
