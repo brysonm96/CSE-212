@@ -63,13 +63,8 @@ class Stack:
     def __init__(self):
         self.data = []        
 ```
-
-Next we'll add the methods to the class.
-
+The "__init__(self)" method initializes a list to store the data of the stack.
 ```
-# Initialize
-def __init__(self):
-        self.data = []
     # empty() function
     def is_empty(self):
         return len(self.data) == 0
@@ -83,6 +78,25 @@ def __init__(self):
         self.data.append(item)
 
 ```
+The "is_empty(self) method" returns a Boolean value stating whether the stack is empty or not.
+The "remove(self)" method removes and returns the item from the top of the stack.
+The "add(self)" method appends the item to the top of the stack.
+
+Now we can add the function to reverse the word
+
+```
+def reverse(string):
+    stack = Stack()
+    for char in string:
+        stack.add(char)
+
+    reversed_string = ''
+    while stack.is_empty() is False:
+        reversed_string += stack.remove()
+
+    return reversed_string
+```
+We're almost done! 
 
 ## Code Problem
 
