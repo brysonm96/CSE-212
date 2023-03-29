@@ -31,11 +31,11 @@ Note that the performance of stacks is based on the performance of the dynamic a
 
 | Function          | Code              | Description          | Performance           |
 | ----------------- | ----------------- | -------------------- | --------------------- |
-| size() | code | Description | Performance  |
-| empty() | code | Description | Performance  |
+| size() | code | return stack size | Performance  |
+| empty() | code | return True if stack size is zero | Performance  |
 | push() | code | adds item to the back of the stack | Performance  |
-| pop() | code | removes item from the back of the stack | Performance  |
-| top()/ peak() | code | removes item from the back of the stack | Performance  |
+| pop() | code | return and remove item from the back of the stack | Performance  |
+| top()/ peak() | code | return reference to top item of stack | Performance  |
 
 
 
