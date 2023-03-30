@@ -127,19 +127,19 @@ Use a stack list to handle the case where the user undoes the last item added to
 ### Test Cases
 
 #1
-Enter an item: cheese
-cheese added
-Would you like to add another item or undo your last one? yes
-Enter an item: milk
-milk added
-Would you like to add another item or undo your last one? yes
-Enter an item: bread
-bread added
-Would you like to add another item or undo your last one? no
-Here is your list:
-cheese
-milk
-bread
+Enter an item: cheese\
+cheese added\
+Would you like to add another item or undo your last one? yes\
+Enter an item: milk\
+milk added\
+Would you like to add another item or undo your last one? yes\
+Enter an item: bread\
+bread added\
+Would you like to add another item or undo your last one? no\
+Here is your list:\
+cheese\
+milk\
+bread\
 
 #2
 Enter an item: chips
