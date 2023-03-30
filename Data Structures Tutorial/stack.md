@@ -139,7 +139,7 @@ Would you like to add another item or undo your last one? no\
 Here is your list:\
 cheese\
 milk\
-bread\
+bread
 
 #2\
 Enter an item: chips\
@@ -158,7 +158,7 @@ Would you like to add another item or undo your last one? no\
 Here is your list:\
 chips\
 apples\
-cake mix\
+cake mix
 
 
 Here is a sample [Solution](stack-solution.py) code.
