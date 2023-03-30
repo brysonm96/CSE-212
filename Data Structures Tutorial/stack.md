@@ -126,7 +126,7 @@ Use a stack list to handle the case where the user undoes the last item added to
 
 ### Test Cases
 
-#1
+#1\
 Enter an item: cheese\
 cheese added\
 Would you like to add another item or undo your last one? yes\
@@ -141,24 +141,24 @@ cheese\
 milk\
 bread\
 
-#2
-Enter an item: chips
-chips added
-Would you like to add another item or undo your last one? yes
-Enter an item: apples
-apples added
-Would you like to add another item or undo your last one? yes
-Enter an item: pasta
-pasta added
-Would you like to add another item or undo your last one? undo
-pasta was removed
-Enter an item: cake mix
-cake mix added
-Would you like to add another item or undo your last one? no
-Here is your list:
-chips
-apples
-cake mix
+#2\
+Enter an item: chips\
+chips added\
+Would you like to add another item or undo your last one? yes\
+Enter an item: apples\
+apples added\
+Would you like to add another item or undo your last one? yes\
+Enter an item: pasta\
+pasta added\
+Would you like to add another item or undo your last one? undo\
+pasta was removed\
+Enter an item: cake mix\
+cake mix added\
+Would you like to add another item or undo your last one? no\
+Here is your list:\
+chips\
+apples\
+cake mix\
 
 
 Here is a sample [Solution](stack-solution.py) code.
