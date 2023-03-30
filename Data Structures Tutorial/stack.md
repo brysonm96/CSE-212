@@ -122,7 +122,10 @@ The reversed word is then printed to the user. Awesome!
 
 Let's put what we learned to the test. Write a code that will prompt the user to add an item to a grocery list. 
 After adding an item, the user should be asked if they would like to add another item or undo their last item. 
-Use a stack list to handle the case where the user undoes the last item added to the list.
+Use a stack so you can handle the case where the user undoes the last item added to the list.
+The user will be prompted to add an item until the user indicates no.
+The list will then be displayed to the user and the code ends.
+
 
 ### Test Cases
 
