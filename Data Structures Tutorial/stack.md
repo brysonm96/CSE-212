@@ -118,9 +118,48 @@ print(reversed_string)
 Now the code has a word variable to pass to the reverse(string) method.
 The reversed word is then printed to the user. Awesome!
 
-## Code Problem
+## Practice: Grocery List
 
-This will contain a problem to solve with code
+Let's put what we learned to the test. Write a code that will prompt the user to add an item to a grocery list. 
+After adding an item, the user should be asked if they would like to add another item or undo their last item. 
+Use a stack list to handle the case where the user undoes the last item added to the list.
 
-[Solution](stack-solution.py)
+### Test Cases
+
+#1
+Enter an item: cheese
+cheese added
+Would you like to add another item or undo your last one? yes
+Enter an item: milk
+milk added
+Would you like to add another item or undo your last one? yes
+Enter an item: bread
+bread added
+Would you like to add another item or undo your last one? no
+Here is your list:
+cheese
+milk
+bread
+
+#2
+Enter an item: chips
+chips added
+Would you like to add another item or undo your last one? yes
+Enter an item: apples
+apples added
+Would you like to add another item or undo your last one? yes
+Enter an item: pasta
+pasta added
+Would you like to add another item or undo your last one? undo
+pasta was removed
+Enter an item: cake mix
+cake mix added
+Would you like to add another item or undo your last one? no
+Here is your list:
+chips
+apples
+cake mix
+
+
+Here is a sample [Solution](stack-solution.py) code.
 
