@@ -15,7 +15,7 @@ So, some common use cases for sets include:
 * Finding unique values across multiple collections
 * Performing set operations such as union, intersection, and difference
 
-We can use a method called 'Hashing' to add, remove, and test for membership in O(1) time.
+We can use a method called `Hashing` to add, remove, and test for membership in O(1) time.
 
 ### Hashing
 
