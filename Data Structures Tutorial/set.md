@@ -70,9 +70,18 @@ To recap, some common use cases for sets include:
 * Finding unique values across multiple collections
 * Finding common values across multiple collections
 
-## Examples
+## Remove Duplicates Example
 
-This will contain examples about the data structure
+Let's say we were given a list of values and our task is to remove the duplicate values.\ 
+
+Here is our given list 
+```Python
+my_list = [1, 2, 2, 2, 3, 4, 4, 5, 6, 6, 6, 6, 7, 7, 8]
+```
+
+We can solve this by using a set. First let's convert our list into a set.
+
+```
 
 ## Code Problem
 
