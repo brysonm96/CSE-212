@@ -68,7 +68,7 @@ To recap, some common use cases for sets include:
 * Removing duplicates from a collection of items
 * Checking whether an item is in a collection (Membership Testing)
 * Finding unique values across multiple collections
-* Performing set operations such as unions (all unique values within two sets) , and intersections (common values between two sets)
+* Finding common values across multiple collections
 
 ## Examples
 
