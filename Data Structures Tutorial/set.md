@@ -8,7 +8,7 @@ This constraint enables us to store data in a highly efficient manner for testin
 In fact, membership testing is the most crucial operation associated with the set data structure.
 We can use a method called hashing to add, remove, and test for membership in O(1) time.
 
-## Hashing
+### Hashing
 
 Sets are typically used when we need to keep track of a collection of items, but we don't care about their order or how many times each item appears. Some common use cases for sets include:
 
