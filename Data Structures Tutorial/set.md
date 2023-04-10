@@ -38,13 +38,6 @@ If we added a few more large numbers, our sparse list would look like this.
 The index(n) = n % sparse_list_size function works well for numbers, but we can also use this function for strings and floats as well.
 To accomplish this, we can convert non-integer values so that the modulo operation applies to them. This is done by using a `Hashing Function`. Python has a built-in has function. The function would then look like this ```index(n) = hash(n) % sparse_list_size```.
 
-
-
-
-## Info
-
-This will contain information about the dada structure
-
 ## Examples
 
 This will contain examples about the data structure
