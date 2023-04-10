@@ -20,7 +20,7 @@ We can use a method called hashing to add, remove, and test for membership in O(
 ### Hashing
 
 Let's assume we want to store a list of numbers from 0 to 9. If we wanted to add, remove, 
-or test this list for membership at O(1) performance, we would consider the index(n) = n function.
+or test this list for membership at O(1) performance, we would consider the ```index(n) = n``` function.
 
 ## Info
 
