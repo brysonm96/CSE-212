@@ -33,9 +33,9 @@ To accomplish this, we can convert non-integer values so that the modulo operati
 
 ### Python Sets
 
-In the Python programming language, sets are defined by using curly braces ```my_set = {1,2,3,4,5}```
+In the Python programming language, sets are defined by using curly braces ```my_set = {1,2,3,4,5}```.
 An empty set is a little bit different.\
-We would create it like this ```empty_set = set()```
+We would create it like this ```empty_set = set()```.
 The performance of sets is determined by the performance of the hashing algorithm.\
 Below are a few examples of common set operations.
 
