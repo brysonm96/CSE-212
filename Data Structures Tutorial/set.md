@@ -49,7 +49,7 @@ Below are a few examples of common set operations.
 ### Set Operations
 
 There are mathematical operations we can perform to interact with set data in useful ways known as `Unions` and `Intersections`.
-Unions help us find all of the unique values between multiple sets.\
+Unions help us find all of the unique values between multiple sets.
 Intersections help us find all of the common values between multiple sets.
 
 ```Python
