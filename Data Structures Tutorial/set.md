@@ -29,7 +29,7 @@ If we added a few more large numbers, our sparse list would look like this.
 |  ---  |  823,056,481  |  ---  |  613,082,973  |  ---  |  ---  |  ---  |  198,734,527  |  ---  |  581,731,089  |
 
 The index(n) = n % sparse_list_size function works well for numbers, but we can also use this function for strings and floats as well.
-To accomplish this, we can convert non-integer values so that the modulo operation applies to them. This is done by using a `Hashing Function`. Python has a built-in has function. The function would then look like this ```index(n) = hash(n) % sparse_list_size```.
+To accomplish this, we can convert non-integer values so that the modulo operation applies to them. This is done by using a `Hashing Function`. Python has a built-in hash function. Our index function would then look like this ```index(n) = hash(n) % sparse_list_size```.
 
 ### Python Sets
 
