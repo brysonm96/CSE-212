@@ -57,9 +57,12 @@ set1 = {2, 3, 4, 5, 6}
 set2 = {5, 6, 7, 8, 9}
 
 set3 = intersection(set1, set2)
+#alternatively the intersection could be written this way: set3 = set1 & set2  
 #result is {5, 6}
 
+
 set4 = union(set1, set2)
+#alternatively the intersection could be written this way: set4 = set1 | set2  
 #result is {2, 3, 4, 5, 6, 7, 8, 9}
 ```
 
@@ -92,11 +95,34 @@ print("Original list:" my_list)
 print("List without duplicates:" my_set)
 ```
 
-The results shoudl be 
+The results should be 
 
 ```Python
 Original list: [1, 2, 2, 2, 3, 4, 4, 5, 6, 6, 6, 6, 7, 7, 8]
 List without duplicates: {1, 2, 3, 4, 5, 6, 7, 8}
+```
+
+Let's throw another list in there and say we want only the common numbers between the two sets.
+
+```Python
+my_list = [1, 2, 2, 2, 3, 4, 4, 5, 5, 6, 6, 6, 6, 7, 7, 8]
+
+my_set = set(my_list)
+
+new_list = [2, 5, 5, 5, 7, 8, 9, 9, 9]
+
+new_set = set(new_list)
+```
+
+We cannot perform an intersection on lists, so we convert them to sets.
+Now we perform the intersection operation and print it to the user.
+
+```Python
+#create intersection
+common_values = my_set & new_set
+
+#print intersected set
+print("Common values: ", common_values)
 ```
 
 ## Code Problem
