@@ -38,6 +38,12 @@ If we added a few more large numbers, our sparse list would look like this.
 The index(n) = n % sparse_list_size function works well for numbers, but we can also use this function for strings and floats as well.
 To accomplish this, we can convert non-integer values so that the modulo operation applies to them. This is done by using a `Hashing Function`. Python has a built-in has function. The function would then look like this ```index(n) = hash(n) % sparse_list_size```.
 
+### Python Sets
+
+In the Python programming language, sets are defined by using curly braces ```my_set = {1,2,3,4,5}```
+An empty set is a little bit different. We would create it like this ```empty_set = set()```
+The performance of sets is determined by the performance of the hashing algorithm.
+
 ## Examples
 
 This will contain examples about the data structure
