@@ -81,6 +81,22 @@ my_list = [1, 2, 2, 2, 3, 4, 4, 5, 6, 6, 6, 6, 7, 7, 8]
 
 We can solve this by using a set. First let's convert our list into a set.
 
+```Python
+my_set = set(my_list)
+```
+
+Now that our list is a set, there are no duplicates.
+
+```Python
+print("Original list:" my_list)
+print("List without duplicates:" my_set)
+```
+
+The results shoudl be 
+
+```Python
+Original list: [1, 2, 2, 2, 3, 4, 4, 5, 6, 6, 6, 6, 7, 7, 8]
+List without duplicates: {1, 2, 3, 4, 5, 6, 7, 8}
 ```
 
 ## Code Problem
