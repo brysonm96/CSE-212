@@ -60,14 +60,14 @@ Unions help us find all of the unique values between multiple sets.\
 Intersections help us find all of the common values between multiple sets.
 
 ```Python
-set1 = {1, 2, 3, 4, 5}
-set2 = {4, 5, 6, 7, 8}
+set1 = {2, 3, 4, 5, 6}
+set2 = {5, 6, 7, 8, 9}
 
-set3 = intersection(set1, set2)  # This will result in {4, 5}
-set3 = set1 & set2               # Alternate way of writing an intersection
+set3 = intersection(set1, set2)
+#result is {5, 6}
 
-set4 = union(set1, set2)  # This will result in {1, 2, 3, 4, 5, 6, 7, 8}
-set4 = set1 | set2        # Alternate way of writing a union
+set4 = union(set1, set2)
+#result is {2, 3, 4, 5, 6, 7, 8, 9}
 ```
 
 
