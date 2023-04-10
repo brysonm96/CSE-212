@@ -13,7 +13,7 @@ So, some common use cases for sets include:
 * Removing duplicates from a collection of items
 * Checking whether an item is in a collection (`Membership Testing`)
 * Finding unique values across multiple collections
-* Performing set operations such as unions (all values within two sets) , and intersections (common values between two sets)
+* Performing set operations such as unions (all unique values within two sets) , and intersections (common values between two sets)
 
 We can use a method called `Hashing` to add, remove, and test for membership in O(1) time.
 
@@ -43,7 +43,34 @@ To accomplish this, we can convert non-integer values so that the modulo operati
 In the Python programming language, sets are defined by using curly braces ```my_set = {1,2,3,4,5}```
 An empty set is a little bit different.\
 We would create it like this ```empty_set = set()```
-The performance of sets is determined by the performance of the hashing algorithm.
+The performance of sets is determined by the performance of the hashing algorithm.\
+Below are a few examples of common set operations.
+
+| Function | Code | Description | Performance |
+|  ---  |  ---  |  ---  |  ---  |
+|  member()  |  if value in my_set:  |  Determine if the value is in the set  |  O(1) |
+|  add()  |  my_set.add()  |  Add a value to the set  |  O(1)  |
+|  remove()  |  my_set.remove()  |  Remove a value from the set  |  O(1)  |
+|  size()  |  length = len(my_set)  |  Return the number of values in the set  |  O(1)  |
+
+### Set Operations
+
+There are mathematical operations we can perform to interact with set data in useful ways known as `Unions` and `Intersections`.
+Unions help us find all of the unique values between multiple sets.\
+Intersections help us find all of the common values between multiple sets.
+
+```Python
+set1 = {1, 2, 3, 4, 5}
+set2 = {4, 5, 6, 7, 8}
+
+set3 = intersection(set1, set2)  # This will result in {4, 5}
+set3 = set1 & set2               # Alternate way of writing an intersection
+
+set4 = union(set1, set2)  # This will result in {1, 2, 3, 4, 5, 6, 7, 8}
+set4 = set1 | set2        # Alternate way of writing a union
+```
+
+
 
 ## Examples
 
