@@ -28,7 +28,13 @@ so the set will not allow duplicate values.
 
 If we had a list of much larger values, we can still manage our data without compromising our O(1) performance by incorporating
 the modulo (%) operator into our function. For example, if we wanted to store 581,731,089 in a sparse list with a size of 10,
-our function would look something like this ```index(581,731,089) = 581,731,089 % 10```.
+our function would look something like this ```index(581,731,089) = 581,731,089 % 10``` = 9.
+If we added a few more large numbers, our sparse list would look like this. 
+
+|   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |
+|  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
+|  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  581,731,089  |
+
 
 ## Info
 
@@ -37,15 +43,6 @@ This will contain information about the dada structure
 ## Examples
 
 This will contain examples about the data structure
-
-## Table
-
-|   X   |   X   |   X   |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
 
 ## Code Problem
 
