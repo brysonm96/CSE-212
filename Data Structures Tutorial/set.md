@@ -11,18 +11,18 @@ In fact, membership testing is the most crucial operation associated with the se
 So, some common use cases for sets include:
 
 * Removing duplicates from a collection of items
-* Checking whether an item is in a collection (`Membership Testing`)
+* Checking whether an item is in a collection ('Membership Testing')
 * Finding unique values across multiple collections
 * Performing set operations such as union, intersection, and difference
 
-We can use a method called `Hashing` to add, remove, and test for membership in O(1) time.
+We can use a method called 'Hashing' to add, remove, and test for membership in O(1) time.
 
 ### Hashing
 
 Let's assume we want to store a list of numbers from 0 to 9. If we wanted to add, remove, 
 or test this list for membership at O(1) performance, we would consider the ```index(n) = n``` function.
 Just plug the number 5 into our function and we would get the index 5. For this to work, our list would need to be size 10
-to fit every number. This list is populated in a different way than dynamic arrays. This is called a `Sparse List` because
+to fit every number. This list is populated in a different way than dynamic arrays. This is called a 'Sparse List' because
 not every index is required to be filled from left to right. It is important to note that there is only one position per value,
 so the set will not allow duplicate values.
 
