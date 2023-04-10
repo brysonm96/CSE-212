@@ -27,7 +27,7 @@ not every index is required to be filled from left to right. It is important to 
 so the set will not allow duplicate values.
 
 If we had a list of much larger values, we can still manage our data without compromising our O(1) performance by incorporating
-the modulo (%) operator into our function. To store 10 digit number (memory for a 1 billion sized sparse list)
+the modulo (%) operator into our function. To store a 10 digit number (memory for a 1 billion sized sparse list)
 our function would look something like this ```index(n) = n % 10```.
 
 ## Info
