@@ -13,7 +13,7 @@ So, some common use cases for sets include:
 * Removing duplicates from a collection of items
 * Checking whether an item is in a collection (`Membership Testing`)
 * Finding unique values across multiple collections
-* Performing set operations such as union, intersection, and difference
+* Performing set operations such as unions (all values within two sets) , and intersections (common values between two sets)
 
 We can use a method called `Hashing` to add, remove, and test for membership in O(1) time.
 
@@ -34,6 +34,9 @@ If we added a few more large numbers, our sparse list would look like this.
 |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |
 |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
 |  ---  |  823,056,481  |  ---  |  613,082,973  |  ---  |  ---  |  ---  |  198,734,527  |  ---  |  581,731,089  |
+
+The index(n) = n % sparse_list_size function works well for numbers, but we can also use this function for strings and floats as well.
+To accomplish this, we can convert non-integer values so that the modulo operation applies to them. This is done by using a `Hashing Function`. Python has a built-in has function. The function would then look like this ```index(n) = hash(n) % sparse_list_size```.
 
 
 
