@@ -5,15 +5,8 @@ in the sense that the order of data does not matter; The data has no inherent po
 
 Another key feature of sets is that they do not allow duplicate values. 
 This means that any given value can appear in a set at most once. 
-This constraint enables us to store data in a highly efficient manner for testing membership. 
+This constraint enables us to store data in a highly efficient manner for `Membership Testing`. 
 In fact, membership testing is the most crucial operation associated with the set data structure.
-
-So, some common use cases for sets include:
-
-* Removing duplicates from a collection of items
-* Checking whether an item is in a collection (`Membership Testing`)
-* Finding unique values across multiple collections
-* Performing set operations such as unions (all unique values within two sets) , and intersections (common values between two sets)
 
 We can use a method called `Hashing` to add, remove, and test for membership in O(1) time.
 
@@ -70,7 +63,12 @@ set4 = union(set1, set2)
 #result is {2, 3, 4, 5, 6, 7, 8, 9}
 ```
 
+To recap, some common use cases for sets include:
 
+* Removing duplicates from a collection of items
+* Checking whether an item is in a collection (Membership Testing)
+* Finding unique values across multiple collections
+* Performing set operations such as unions (all unique values within two sets) , and intersections (common values between two sets)
 
 ## Examples
 
