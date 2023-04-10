@@ -22,7 +22,7 @@ We can use a method called `Hashing` to add, remove, and test for membership in 
 Let's assume we want to store a list of numbers from 0 to 9. If we wanted to add, remove, 
 or test this list for membership at O(1) performance, we would consider the ```index(n) = n``` function.
 Just plug the number 5 into our function and we would get the index 5. For this to work, our list would need to be size 10
-to fit every number. This list is populated in a different way than dynamic arrays. This is called a 'Sparse List' because
+to fit every number. This list is populated in a different way than dynamic arrays. This is called a `Sparse List` because
 not every index is required to be filled from left to right. It is important to note that there is only one position per value,
 so the set will not allow duplicate values.
 
