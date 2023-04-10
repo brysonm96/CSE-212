@@ -28,12 +28,14 @@ so the set will not allow duplicate values.
 
 If we had a list of much larger values, we can still manage our data without compromising our O(1) performance by incorporating
 the modulo (%) operator into our function. For example, if we wanted to store 581,731,089 in a sparse list with a size of 10,
-our function would look something like this ```index(581,731,089) = 581,731,089 % 10``` = 9.
+our function would look something like this ```index(581,731,089) = 581,731,089 % sparse_list_size``` = 9 (in this case the sparse-list-size is 10).
 If we added a few more large numbers, our sparse list would look like this. 
 
 |   0   |   1   |   2   |   3   |   4   |   5   |   6   |   7   |   8   |   9   |
 |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |  ---  |
 |  ---  |  823056481  |  ---  |  613082973  |  ---  |  ---  |  ---  |  198734527  |  ---  |  581,731,089  |
+
+
 
 
 ## Info
