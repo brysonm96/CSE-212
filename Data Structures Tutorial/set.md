@@ -125,6 +125,8 @@ common_values = my_set & new_set
 print("Common values: ", common_values)
 ```
 
+(Notice that although the number 5 is listed in each set at least twice, it still only shows in the output once.)
+
 ## Code Problem
 
 This will contain a problem to solve with code
