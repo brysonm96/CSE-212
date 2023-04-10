@@ -11,7 +11,7 @@ In fact, membership testing is the most crucial operation associated with the se
 So, some common use cases for sets include:
 
 * Removing duplicates from a collection of items
-* Checking whether an item is in a collection ('Membership Testing')
+* Checking whether an item is in a collection (`Membership Testing`)
 * Finding unique values across multiple collections
 * Performing set operations such as union, intersection, and difference
 
