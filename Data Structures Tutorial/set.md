@@ -75,7 +75,7 @@ To recap, some common use cases for sets include:
 
 ## Remove Duplicates Example
 
-Let's say we were given a list of values and our task is to remove the duplicate values.\ 
+Let's say we were given a list of values and our task is to remove the duplicate values.
 
 Here is our given list 
 ```Python
