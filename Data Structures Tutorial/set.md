@@ -1,5 +1,13 @@
 # Sets
 
+### Key Terms
+
+- Membership Testing
+- Hashing
+- Sparse List
+- Unions
+- Intersections
+
 The set data structure is different from other data structures such as stacks and queues, 
 in the sense that the order of data does not matter; The data has no inherent position.
 
