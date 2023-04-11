@@ -63,11 +63,11 @@ Packages for this functionality by other developers can be downloaded [here](htt
 |  height(node)  |  Determine the height of a node. If the height of the tree is needed, the root node is provided  |  O(n)  |
 
 
-## BST Operations Example
+## BST Operation Example
 
-Let's look at some examples of common BST operations.
+Let's look at an example of a common BST operation.
 
-The first is Inserting into a BST.
+We will be `Inserting` data into a BST.
 Data will be insterted, using recursion, either to the left or the right depending on the value.
 A root node will be determined if there is no value in the tree.
 
