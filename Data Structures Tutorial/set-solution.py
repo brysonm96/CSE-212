@@ -6,7 +6,7 @@ SET_MAX = 5
 
 #user prompt
 while True:
-    print("\nCurrent set of names:", names)
+    print("\nNames:", names)
     print("Add a name (1)")
     print("Remove a name (2)")
     print("Exit (3)")
