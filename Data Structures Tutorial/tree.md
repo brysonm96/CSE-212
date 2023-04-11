@@ -33,7 +33,7 @@ This results in a better performance of `O(log n)`.
 ## Balanced Binary Search Tree
 
 The reason we were able to achieve `O(log n)` above is because the tree was balanced. Binary search trees are not always balanced, however.
-Say for example, we enter data into a tree in descending order like so: `33, 27, 23, 19, 15, 9`.
+Say for example, we enter data into a tree in descending order like so: 33, 27, 23, 19, 15, 9.
 The tree would only be moving to the left. This is closer to a linked list, and has a searching perfomance of `O(n)`.
 Because the data stored in trees will not always be balanced, there are ways we can check and correct
 the balance.
