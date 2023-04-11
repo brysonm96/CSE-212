@@ -39,6 +39,7 @@ Because the data stored in trees will not always be balanced, there are ways we 
 the balance.
 A `Balanced Binary Search Tree` is a BST where the difference of height between two given subtrees is not vastly different.
 A tree's height can be determined by counting the max number of nodes between the root and the leaves.
+
 One way we can correct the balance of a tree is by using the AVL (Adelson-Velskii and Landis) tree algorithm.
 When the tree detects that a node has exceeded a specific height and has unbalanced the tree, an automatic rotation is performed.
 Where the node would have been placed, it instead takes the place of the parent node, and the original parent node and child node both
