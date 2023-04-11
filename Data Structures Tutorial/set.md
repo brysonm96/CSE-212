@@ -190,10 +190,10 @@ Add name 1.
 Remove name 2.
 Done 3.
 Enter your choice: 1
-Enter the name to add to your set: matthew
-matthew was added
+Enter the name to add to your set: sara
+sara was added
 
-Names: {sarah}
+Names: {sara}
 Add name 1.
 Remove name 2.
 Done 3.
@@ -201,7 +201,7 @@ Enter your choice: 1
 Enter the name to add to your set: jean
 jean was added
 
-Names: {sarah, jean}
+Names: {sara, jean}
 Add name 1.
 Remove name 2.
 Done 3.
@@ -209,7 +209,7 @@ Enter your choice: 1
 Enter the name to add to your set: brad
 brad was added
 
-Names: {sarah, jean, brad}
+Names: {sara, jean, brad}
 Add name 1.
 Remove name 2.
 Done 3.
@@ -217,13 +217,13 @@ Enter your choice: 2
 Enter the name to remove from your set: brad
 brad was removed
 
-Names: {sarah, jean}
+Names: {sara, jean}
 Add name 1.
 Remove name 2.
 Done 3.
 Enter your choice: 3
 
-Final Set: {sarah, jean}
+Final Set: {sara, jean}
 ```
 [Solution](set-solution.py)
 
