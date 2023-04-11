@@ -135,7 +135,7 @@ remove() function. If the user exceeds the set size, give the user the option to
 to the user.
 
 ###Test Case #1
-
+```Python
 Add name 1.
 Remove name 2.
 Done 3.
@@ -174,9 +174,9 @@ Done 3.
 Enter your choice: 3
 
 Final Set: {matthew, mark, luke, john}
-
+```
 ###Test Case #2
-
+```Python
 Add name 1.
 Remove name 2.
 Done 3.
@@ -215,6 +215,6 @@ Done 3.
 Enter your choice: 3
 
 Final Set: {sarah, jean}
-
+```
 [Solution](set-solution.py)
 
