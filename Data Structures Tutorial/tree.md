@@ -49,7 +49,7 @@ An AVL tree will always be balanced, and so it will benefit from having an `O(lo
 ## Common BST Python Functions
 
 (Note) Python does not have built-in BST class functions.\
-Packages for this functionality can be downloaded by other developers [here]([tree-solution.py](https://pypi.org/project/bintrees/)
+Packages for this functionality can be downloaded by other developers [here]([https://pypi.org/project/bintrees/])
 
 ## BST Operations
 
