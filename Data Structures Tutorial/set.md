@@ -5,6 +5,7 @@
 - Membership Testing
 - Hashing
 - Sparse List
+- Hashing Function
 - Unions
 - Intersections
 
