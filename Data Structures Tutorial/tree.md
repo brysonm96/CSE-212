@@ -49,18 +49,30 @@ An AVL tree will always be balanced, and so it will benefit from having an `O(lo
 
 
 
-## Examples
+## BST Operations
 
-This will contain examples about the data structure
+Let's look at some examples of common BST operations.
 
-## Table
+The first is Inserting into a BST.
+Data will be insterted, using recursion, either to the left or the right depending on the value.
+A root node will be determined if there is no value in the tree.
 
-|   X   |   X   |   X   |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
-|  ---  |  ---  |  ---  |
+```Python
+class Node:
+    def __init__(self, val):
+        self.val = val
+        self.left = None
+        self.right = None
+
+def insert_node(root, val):
+    if root is None:
+        return Node(val)
+    elif val < root.val:
+        root.left = insert_node(root.left, val)
+    else:
+        root.right = insert_node(root.right, val)
+    return root
+```
 
 ## Code Problem
 
