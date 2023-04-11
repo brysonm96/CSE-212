@@ -25,16 +25,16 @@ This process always starts at the root node, and continues until the data has fo
 
 ![binary search tree](binary-search-tree.png)
 
-If we have a linked list or dynamic array containing values, we would have a performance of O(n) as we search for
+If we have a linked list or dynamic array containing values, we would have a performance of `O(n)` as we search for
 the location to insert our data.
 By incorporating a BST, we are increasing efficiency and performance; we are essentially removing a subtree per comparison.
-This results in a better performance of O(log n).
+This results in a better performance of `O(log n)`.
 
 ## Balanced Binary Search Tree
 
-The reason we were able to achieve O(log n) above is because the tree was balanced. Binary search trees are not always balanced, however.
-Say for example, we enter data into a tree in descending order like so: 33, 27, 23, 19, 15, 9.
-The tree would only be moving to the left. This is closer to a linked list, and has a searching perfomance of O(n).
+The reason we were able to achieve `O(log n)` above is because the tree was balanced. Binary search trees are not always balanced, however.
+Say for example, we enter data into a tree in descending order like so: `33, 27, 23, 19, 15, 9`.
+The tree would only be moving to the left. This is closer to a linked list, and has a searching perfomance of `O(n)`.
 Because the data stored in trees will not always be balanced, there are ways we can check and correct
 the balance.
 A `Balanced Binary Search Tree` is a BST where the difference of height between two given subtrees is not vastly different.
@@ -44,7 +44,7 @@ One way we can correct the balance of a tree is by using the AVL (Adelson-Velski
 When the tree detects that a node has exceeded a specific height and has unbalanced the tree, an automatic rotation is performed.
 Where the node would have been placed, it instead takes the place of the parent node, and the original parent node and child node both
 become child nodes of the new node. This sounds complicated but it is an easy process that eliminates the hassle of an unbalanced binary search tree.
-An AVL tree will always be balanced, and so it will benefit from having an O(log n) performance.
+An AVL tree will always be balanced, and so it will benefit from having an `O(log n)` performance.
 
 
 
