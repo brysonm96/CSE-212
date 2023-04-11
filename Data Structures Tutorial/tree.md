@@ -49,9 +49,21 @@ An AVL tree will always be balanced, and so it will benefit from having an `O(lo
 ## Common BST Python Functions
 
 (Note) Python does not have built-in BST class functions.\
-Packages for this functionality can be downloaded by other developers [here](https://pypi.org/project/bintrees)
+Packages for this functionality by other developers can be downloaded [here](https://pypi.org/project/bintrees)
 
-## BST Operations
+|  Function  |  Description  |  Performance  |
+|  ---  |  ---  |  ---  |
+|  size()  |  Returns size of the BST  |  O(1)  |
+|  empty()  |  Returns true if the root node is empty  |  O(1)  |
+|  insert()  |  Insert value into the tree  |  O(log n)  |
+|  remove()  |  Remove value from the tree  |  O(log n)  |
+|  contains()  |  Check if a value is in the tree  |  O(log n)  |
+|  traverse_forward  |  Check values from smallest to largest  |  O(n)  |
+|  traverse_reverse  |  Check values from largest to smallest  |  O(n)  |
+|  height(node)  |  Determine the height of a node. If the height of the tree is needed, the root node is provided  |  O(n)  |
+
+
+## BST Operations Example
 
 Let's look at some examples of common BST operations.
 
