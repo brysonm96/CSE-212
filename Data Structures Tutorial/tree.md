@@ -7,7 +7,7 @@ We will take a look at a few different types of trees, as well as some of their 
 ## Binary Tree
 
 A `Binary Tree` is a type of tree where each node can have up to two connections to other nodes.\
-The highest node in the tree is called the `Root Node`.\
+The highest node in the tree is called the `Root Node`. There is always only one root node.\
 Nodes with connected nodes are called `Parent Nodes`.\
 The node that is connected to the parent is known as a `Child Node`.\
 Nodes without any connected nodes are called `Leaf Nodes`.\
