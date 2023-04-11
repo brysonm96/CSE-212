@@ -64,15 +64,21 @@ class Node:
         self.left = None
         self.right = None
 
-def insert_node(root, val):
+def insert(root, val):
     if root is None:
         return Node(val)
     elif val < root.val:
-        root.left = insert_node(root.left, val)
+        root.left = insert(root.left, val)
     else:
-        root.right = insert_node(root.right, val)
+        root.right = insert(root.right, val)
     return root
 ```
+
+The code in this example defines the Node as a class with a value and a left and right pointer.
+The insert function grabs the root node and a value to insert.
+If the root is empty, a new node is created with a value and returned.
+If the value is less than the root, it is moved to the left subtree.
+If the value it greater than the root, it is moved to the right subtree.
 
 ## Code Problem
 
