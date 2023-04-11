@@ -1,10 +1,12 @@
-# Tree Draft
+# Trees
 
-This will contain a descriptioin about the data structure
+## Binary Tree
 
-## Info
+![binary tree](binary-tree.png)
 
-This will contain information about the dada structure
+## Binary Search Tree
+
+![binary search tree](binary-search-tree.png)
 
 ## Examples
 
