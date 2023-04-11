@@ -27,6 +27,9 @@ This process always starts at the root node, and continues until the data has fo
 
 If we have a linked list or dynamic array containing values, we would have a performance of O(n) as we search for
 the location to insert our data.
+By incorporating a BST, we are increasing efficiency and performance; we are essentially removing a subtree per comparison.
+This results in a better performance of O(log n).
+
 
 ## Examples
 
