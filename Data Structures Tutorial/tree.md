@@ -18,6 +18,10 @@ The group of nodes on the left or right side of the parent node form a `Subtree`
 
 ## Binary Search Tree
 
+A `Binary Search Tree` (BST) is like a binary tree, but it follows specific rules for storing the data entered.
+Data is stored in the BST by comparing it to the value of the parent node. When the data is over lower value than the parent,
+it is stored in the left subtree. If the data is of greater value than the parent, it is stored in the right subtree.
+
 ![binary search tree](binary-search-tree.png)
 
 ## Examples
