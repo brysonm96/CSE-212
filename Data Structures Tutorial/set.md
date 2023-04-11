@@ -127,9 +127,94 @@ print("Common values: ", common_values)
 
 (Notice that although the number 5 is listed in each set at least twice, it still only shows in the output once.)
 
-## Code Problem
+## Name Set
 
-This will contain a problem to solve with code
+Let's put what we learned to the test. Write a code that creates a set and allows the user to add names to the set, using the add() function we learned about.
+The user should not be able to add duplicate names to the set. The user should also be able to view the set of names and remove a name if desired, using the 
+remove() function. If the user exceeds the set size, give the user the option to increase the set size. Once the user is done, the set of names is printed
+to the user.
+
+###Test Case #1
+
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 1
+Enter the name to add to your set: matthew
+matthew was added
+
+Names: {matthew}
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 1
+Enter the name to add to your set: mark
+mark was added
+
+Names: {matthew, mark}
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 1
+Enter the name to add to your set: luke
+luke was added
+
+Names: {matthew, mark, luke}
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 1
+Enter the name to add to your set: john
+john was added
+
+Names: {matthew, mark, luke, john}
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 3
+
+Final Set: {matthew, mark, luke, john}
+
+###Test Case #2
+
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 1
+Enter the name to add to your set: matthew
+matthew was added
+
+Names: {sarah}
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 1
+Enter the name to add to your set: jean
+jean was added
+
+Names: {sarah, jean}
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 1
+Enter the name to add to your set: brad
+brad was added
+
+Names: {sarah, jean, brad}
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 2
+Enter the name to remove from your set: brad
+brad was removed
+
+Names: {sarah, jean}
+Add name 1.
+Remove name 2.
+Done 3.
+Enter your choice: 3
+
+Final Set: {sarah, jean}
 
 [Solution](set-solution.py)
 
