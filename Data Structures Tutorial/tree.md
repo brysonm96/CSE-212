@@ -44,6 +44,7 @@ One way we can correct the balance of a tree is by using the AVL (Adelson-Velski
 When the tree detects that a node has exceeded a specific height and has unbalanced the tree, an automatic rotation is performed.
 Where the node would have been placed, it instead takes the place of the parent node, and the original parent node and child node both
 become child nodes of the new node. This sounds complicated but it is an easy process that eliminates the hassle of an unbalanced binary search tree.
+An AVL tree will always be balanced, and so it will benefit from having an O(log n) performance.
 
 
 
