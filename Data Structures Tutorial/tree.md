@@ -46,8 +46,10 @@ Where the node would have been placed, it instead takes the place of the parent 
 become child nodes of the new node. This sounds complicated but it is an easy process that eliminates the hassle of an unbalanced binary search tree.
 An AVL tree will always be balanced, and so it will benefit from having an `O(log n)` performance.
 
+## Common BST Python Functions
 
-
+(Note) Python does not have built-in BST class functions.\
+Packages for this functionality can be downloaded by other developers [here]([tree-solution.py](https://pypi.org/project/bintrees/)
 
 ## BST Operations
 
