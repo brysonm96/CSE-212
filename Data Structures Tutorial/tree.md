@@ -1,5 +1,9 @@
 # Trees
 
+Trees are similar to linked list in the sense that it uses nodes and pointers to connect them. The difference is that trees
+can connect to multiple different nodes. In computing, trees are used for sorting and searching, becuse they provide a hierarchal structure.
+We will take a look at a few different types of trees, as well as some of their common operations.
+
 ## Binary Tree
 
 ![binary tree](binary-tree.png)
