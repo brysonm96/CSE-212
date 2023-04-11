@@ -134,7 +134,7 @@ The user should not be able to add duplicate names to the set. The user should a
 remove() function. If the user exceeds the set size, give the user the option to increase the set size. Once the user is done, the set of names is printed
 to the user.
 
-###Test Case #1
+### Test Case #1
 ```Python
 Add name 1.
 Remove name 2.
@@ -175,7 +175,7 @@ Enter your choice: 3
 
 Final Set: {matthew, mark, luke, john}
 ```
-###Test Case #2
+### Test Case #2
 ```Python
 Add name 1.
 Remove name 2.
