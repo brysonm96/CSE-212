@@ -112,6 +112,6 @@ parent.child.right = Node(9)
 
 #traverse output: 3 7 9 10 14
 #reverse output: 14 10 9 7 3
-
+```
 [Solution](tree-solution.py)
 
