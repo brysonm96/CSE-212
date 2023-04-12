@@ -103,14 +103,15 @@ reverse traversing it.
 
 ### Test Case
 
+```Python
 root = Node(10)
 parent.left = Node(7)
 parent.right = Node(14)
 parent.child.left = Node(3)
 parent.child.right = Node(9)
 
-traverse output: 3 7 9 10 14
-reverse output: 14 10 9 7 3
+#traverse output: 3 7 9 10 14
+#reverse output: 14 10 9 7 3
 
 [Solution](tree-solution.py)
 
