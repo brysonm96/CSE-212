@@ -96,10 +96,21 @@ If the value it greater than the root, it is moved to the right subtree.
 
 ## Traverse and Reverse data
 
-Let's put what we learned to the test! Write a code that will recursively traverse the data in a binary tree.
+Let's put what we learned to the test! Write a code that will recursively traverse and reverse traverse the data in a binary search tree.
 It should start by traversing the left subtree, and then the right subtree.
-(HINT) It should find the data and print it in descending order if it is traversing it, and ascending order if it is 
+(HINT) It should find the data and print it in ascending order if it is traversing it, and descending order if it is 
 reverse traversing it.
+
+### Test Case
+
+root = Node(10)
+parent.left = Node(7)
+parent.right = Node(14)
+parent.child.left = Node(3)
+parent.child.right = Node(9)
+
+traverse output: 3 7 9 10 14
+reverse output: 14 10 9 7 3
 
 [Solution](tree-solution.py)
 
