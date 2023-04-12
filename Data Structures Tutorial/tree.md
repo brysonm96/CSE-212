@@ -94,9 +94,12 @@ If the root is empty, a new node is created with a value and returned.
 If the value is less than the root, it is moved to the left subtree.
 If the value it greater than the root, it is moved to the right subtree.
 
-## Code Problem
+## Traverse and Reverse data
 
-This will contain a problem to solve with code
+Let's put what we learned to the test! Write a code that will recursively traverse the data in a binary tree.
+It should start by traversing the left subtree, and then the right subtree.
+(HINT) It should find the data and print it in descending order if it is traversing it, and ascending order if it is 
+reverse traversing it.
 
 [Solution](tree-solution.py)
 
